@@ -11,9 +11,9 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "twdps"
+    organization = "twks-cohort"
     workspaces {
-      prefix = "lab-iam-profiles-"
+      prefix = "red-lab-iam-profiles-"
     }
   }
 }
@@ -31,7 +31,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      pipeline = "lab-iam-profiles"
+      pipeline = "red-lab-iam-profiles"
     }
   }
 }
