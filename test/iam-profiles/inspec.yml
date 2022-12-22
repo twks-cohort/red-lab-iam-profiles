@@ -9,4 +9,4 @@ supports:
   - platform: aws
 depends:
   - name: inspec-aws
-    url:  https://github.com/inspec/inspec-aws/archive/v1.75.0.tar.gz
+    url:  https://github.com/inspec/inspec-aws.git
